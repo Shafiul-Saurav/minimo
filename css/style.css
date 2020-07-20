@@ -1,0 +1,176 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+h1{
+	font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+p{
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 25px;
+	margin-bottom: 40px;
+}
+h5{
+	font-weight: 400;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+/*header start*/
+.header{
+	padding: 20px 0;
+}
+.logo{}
+.menu ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 60px !important;
+    border-bottom: 1px solid #ffffff !important;
+    transition: 1s !important;
+}
+.menu ul li a:hover{
+	color: #000000 !important;
+	border-bottom: 1px solid #000000 !important;
+}
+.menu ul li:last-child a{
+    margin-right: 0 !important;
+}
+/*header end*/
+
+/* slider start */
+.carousel-indicators{
+	margin-bottom: 40px;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+/* slider end */
+
+/*photodiary start*/
+.photodairy{
+	padding: 100px 0;
+}
+.wrapper{
+	width: 80%;
+}
+.p_content{}
+.p_content_text{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+/*photodiary end*/
+
+/*blog start*/
+.blog_section{
+	padding: 100px 0;
+}
+.lifestyle{
+	border: 0px solid;
+	border-radius: 0px;
+	margin-bottom: 100px;
+}
+.l_content{
+	padding: 20px 0;
+}
+/*blog end*/
+
+/*form start*/
+.form_section{
+	background-color: #f0f0f0;
+	padding: 100px 0;
+}
+
+.input_form{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 14px;
+	border: 0;
+	border-bottom: 2px solid #000000;
+	border-radius: 0;
+	background-color: #f0f0f0;
+}
+.input_form:hover{
+	background-color: #f0f0f0;
+	border-bottom: 2px solid #000000;
+}
+.form-control:focus{
+    background-color: #f0f0f0;
+    box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0);
+    border-bottom: 2px solid #000000;
+}
+.btn_custom{
+	border-bottom: 2px solid #000000;
+	padding: 4px;
+	border-radius: 0;
+}
+/*form end*/
+
+/*music start*/
+.music_section{
+	padding: 100px 0;
+}
+/*music end*/
+
+/*load more start*/
+.load_more{
+	padding: 100px 0;
+}
+.more{
+	text-align: center;
+}
+.load{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #626262;
+	padding: 20px 40px;
+	border: 1px solid #626262;
+	border-radius: 0;
+	transition: 0.5s;
+}
+.load:hover{
+	color: #b4ad9e;
+	border: 1px solid #b4ad9e; 
+}
+/*load more end*/
+
+/*footer start*/
+footer{
+	padding: 20px 0;
+}
+.term-privacy ul li a{
+	color: #646464;
+	transition: 1s !important;
+}
+.term-privacy ul li a:hover{
+	font-weight: 400px;
+	color: #b4ad9e;
+	text-decoration: none;
+}
+.social{
+	text-align: right;
+}
+.social ul li a{
+	color: #646464;
+	transition: 1s !important;
+}
+.social ul li a:hover{
+	font-weight: 400px;
+	color: #b4ad9e;
+	text-decoration: none;
+}
+.social ul li a i{}
+/*footer end*/
